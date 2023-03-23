@@ -1,0 +1,28 @@
+.row{
+margin-left: 20px;
+color: white;
+/* background-color: #111; */
+}
+.bunchofimg{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    transition: transform 450ms;
+    margin-right: 5px;
+
+}
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.bunchofimg:hover{
+    transform: scale(1.08);
+}
+.largerowimg{
+    max-height: 250px;
+}
